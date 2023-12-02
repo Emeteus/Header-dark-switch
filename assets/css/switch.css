@@ -1,0 +1,20 @@
+body {
+    background-image: url('theme/bg_white.jpg');
+}
+
+.dark {
+    background-image: url('theme/bg_black.jpg');
+    color: white;
+}
+
+input:checked + .slider::before {
+    transform: translateX(26px);
+}
+
+.invert-color {
+    filter: invert(1);
+}
+
+#toggleButton {
+    margin-left: auto;
+}
