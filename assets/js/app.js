@@ -37,3 +37,4 @@ function applyLightTheme() {
     moonIcon.style.display = 'block';
     sunIcon.style.display = 'none';
 }
+

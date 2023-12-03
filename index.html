@@ -5,47 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BrillianHome</title>
     <!--=============== ICO ===============-->
-      <link rel="icon" type="ico" sizes="32x32" href="assets/img/ico/favicon.ico">
-      <link rel="icon" type="ico" sizes="16x16" href="assets/img/ico/favicon.ico">
-      <link rel="apple-touch-icon" type="ico" sizes="180x180" href="assets/img/ico/favicon.ico">
+      <link rel="icon" type="ico" sizes="32x32" href="assets/img/ico.png">
+      <link rel="icon" type="ico" sizes="16x16" href="assets/img/ico.png">
+      <link rel="apple-touch-icon" type="ico" sizes="180x180" href="assets/img/ico.png">
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/switch.css">
     
 </head>
 
-<body>
+<body id="start">
     <!-- =============== HEADER ===============-->
     <header class="l-header">
       <nav class="nav bd-grid">
          <div class="nav__logo">
-            <img src="assets/img/ico/favicon.ico" alt="Logo" class="nav__icon">
+            <img src="assets/img/logo111.png" alt="Logo" class="nav__icon">
         </div>
         
 
-        <div class="nav__login">
-         <ul class="flex items-center">
-            <li>
-               <button id="loginButton" class="flex items-center">
-                   <img src="assets/img/svg/search.svg" alt="Login" class="login-icon">
-               </button>
-           </li>
-             <li>
-                 <button id="loginButton" class="flex items-center">
-                     <img src="assets/img/svg/login.svg" alt="Login" class="login-icon">
-                 </button>
-             </li>
-             <li>
-                 <button id="toggleButton" class="flex items-center">
-                     <img src="assets/img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon" style="width: 24px; height: 24px;">
-                     <img src="assets/img/svg/sun.svg" alt="Sun Icon" class="sun-icon" style="width: 24px; height: 24px;">
-                 </button>
-             </li>
-         </ul>
-     </div>
-
-
-
+       
      <div class="nav__menu" id="nav-menu">
       <ul class="nav__list">
           <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
@@ -55,7 +33,26 @@
           <li class="nav__item"><a href="#" class="nav__link">Comumunity</a></li>
       </ul>
   </div>
-
+  <div class="nav__login">
+    <ul class="flex items-center">
+       <li>
+          <button id="loginButton" class="flex items-center white-icon">
+              <img src="assets/img/svg/search.svg" alt="Login" class="login-icon">
+          </button>
+      </li>
+        <li>
+            <button id="loginButton" class="flex items-center">
+                <img src="assets/img/svg/login.svg" alt="Login" class="login-icon white-icon">
+            </button>
+        </li>
+        <li>
+            <button id="toggleButton" class="flex items-center">
+                <img src="assets/img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon " style="width: 24px; height: 24px;">
+                <img src="assets/img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+            </button>
+        </li>
+    </ul>
+</div>
      <div class="menu-toggle" id="menu-toggle">
          <ion-icon class="nav__icon" name="menu"></ion-icon>
      </div>

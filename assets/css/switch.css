@@ -1,9 +1,9 @@
 body {
-    background-image: url('theme/bg_white.jpg');
+    background-image: url('theme/bg_white.png');
 }
 
 .dark {
-    background-image: url('theme/bg_black.jpg');
+    background-image: url('theme/bg_black.png');
     color: white;
 }
 
