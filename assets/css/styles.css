@@ -76,12 +76,13 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: var(--color-secondary);
+    background-color: rgba(56, 67, 88, 0.8); 
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
 }
+
 
 .nav {
     display: flex;
