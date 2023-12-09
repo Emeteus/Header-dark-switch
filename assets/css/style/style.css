@@ -14,6 +14,8 @@ a {
   vertical-align: bottom;
 }
 
+
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -191,6 +193,8 @@ a {
     display: none;
   }
 }
+
+
 .flex-center {
   width: 50%;
   min-height: 5vh;

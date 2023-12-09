@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'сlassica';
+    src: url('/assets/font/classica.ttf') format('woff2'), /* Используйте правильный формат и путь к файлу шрифта */
+         url('/assets/font/classica.ttf') format('woff');
+}
+
+h1 {
+    font-family: 'сlassica', Arial, sans-serif;
+    font-size: 60px;
+    line-height: 65px;
+    text-align: center;
+    width: 60%;
+    height: 40vh;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
