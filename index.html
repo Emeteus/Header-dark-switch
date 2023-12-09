@@ -12,55 +12,76 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/switch.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/style/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
     <!-- =============== HEADER ===============-->
-    <header class="l-header">
-      <nav class="nav bd-grid"> 
-       
-   <div class="nav__menu" id="nav-menu">
-      <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Works</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Comumunity</a></li>
-      </ul>
-  </div>
-  <div class="nav__login">
-    <ul class="flex items-center">
-       <li>
-          <button id="loginButton" class="flex items-center white-icon">
-              <img src="assets/img/svg/search.svg" alt="Login" class="login-icon">
-          </button>
-      </li>
-        <li>
-            <button id="loginButton" class="flex items-center">
-                <img src="assets/img/svg/login.svg" alt="Login" class="login-icon white-icon">
-            </button>
-        </li>
-        <li>
-            <button id="toggleButton" class="flex items-center">
-                <img src="assets/img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon " style="width: 24px; height: 24px;">
-                <img src="assets/img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
-            </button>
-        </li>
-    </ul>
-</div>
-     <div class="menu-toggle" id="menu-toggle">
-         <ion-icon class="nav__icon" name="menu"></ion-icon>
-     </div>
- </nav>
-</header>
-
+    <header class="header">
+        <div class="container">
+          <nav class="nav">
+      
+            <div href="#" class="logo, nav__login">
+                <ul class="flex items-center">
+                    <li>
+                       <button id="loginButton" class="flex items-center white-icon">
+                           <img src="assets/img/svg/mobil.svg" alt="Login" class="login-icon">
+                       </button>
+                   </li>
+                     <li>
+                         <button id="loginButton" class="flex items-center">
+                             <img src="assets/img/svg/login.svg" alt="Login" class="login-icon white-icon">
+                         </button>
+                     </li>
+                     <li>
+                         <button id="toggleButton" class="flex items-center">
+                             <img src="assets/img/svg/moon.svg" alt="Moon Icon" class="mr-2 moon-icon " style="width: 24px; height: 24px;">
+                             <img src="assets/img/svg/sun.svg" alt="Sun Icon" class="sun-icon white-icon" style="width: 24px; height: 24px;">
+                         </button>
+                     </li>
+                 </ul>
+            </div>
+      
+            <div class="reveal1"></div>
+            <div class="reveal2"></div>
+            
+            <ul class="menu">
+              <li class="item active">
+                <a href="#">Home</a>
+              </li>
+              <li class="item">
+                <a href="#">About</a>
+              </li>
+              <li class="item">
+                <a href="#">Contacts</a>
+              </li>
+              <li class="item">
+                <a href="#">Gallery</a>
+              </li>
+              <li class="item">
+                <a href="#">FAQ</a>
+              </li>
+            </ul>
+      
+      
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+      
+          </nav>
+        </div>
+      </header>
     <!--=============== END HEADER ===============-->
 
 
     <!--=============== PAGE ===============-->
     <main>
+        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam impedit ipsum repellat corporis optio modi assumenda nesciunt? Minima omnis aspernatur ratione hic, reiciendis eos harum? Aliquam possimus tenetur nulla consequuntur.</h1>
       
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim lobortis scelerisque fermentum dui faucibus. Bibendum arcu vitae elementum curabitur vitae nunc sed. Felis imperdiet proin fermentum leo vel orci porta non. Urna porttitor rhoncus dolor purus. Pretium lectus quam id leo in. Varius vel pharetra vel turpis nunc. Sit amet justo donec enim. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Fringilla ut morbi tincidunt augue interdum velit euismod in. Et netus et malesuada fames ac turpis egestas sed tempus. Pellentesque elit eget gravida cum sociis natoque penatibus et. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Ultrices in iaculis nunc sed augue. Integer quis auctor elit sed vulputate mi. Id velit ut tortor pretium viverra suspendisse potenti nullam ac. Eget aliquet nibh praesent tristique. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Euismod elementum nisi quis eleifend quam.
 
@@ -120,11 +141,12 @@
               </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim lobortis scelerisque fermentum dui faucibus.
             </p>
-            <ul class="socials">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
+            <div class="flex-center">
+                <i class="fa fa-github fa-4x icon-3d"></i>
+                  <i class="fa fa-twitter fa-4x icon-3d"></i>
+                  <i class="fa fa-facebook fa-4x icon-3d"></i>
+                  <i class="fa fa-instagram fa-4x icon-3d"></i>
+              </div>
         </div>
         <hr>
         <div class="footer-bottom">
@@ -139,7 +161,8 @@
     
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/switch.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/header.js"></script>
 </body>
 </html>

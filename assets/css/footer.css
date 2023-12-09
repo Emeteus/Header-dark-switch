@@ -1,12 +1,11 @@
 footer {
-    position: static;
-    bottom: 0;
+    position: absolute;
+    /* bottom: 0; */
     left: 0;
     right: 0;
     background: #111;
     padding-top: 0%; /* Уменьшен верхний отступ */
     color: #fff;
-    margin-top: auto; /* Размещаем футер внизу */
 
 }
 

@@ -11,16 +11,4 @@ const showMenu = (toggleId, navId) =>{
 
 showMenu('menu-toggle','nav-menu')
 
-  let prevScrollPos = window.pageYOffset;
 
-  window.onscroll = function () {
-    const currentScrollPos = window.pageYOffset;
-
-    if (prevScrollPos > currentScrollPos) {
-      document.querySelector(".l-header").style.top = "0";
-    } else {
-      document.querySelector(".l-header").style.top = `-${document.querySelector(".l-header").offsetHeight}px`;
-    }
-
-    prevScrollPos = currentScrollPos;
-  };
