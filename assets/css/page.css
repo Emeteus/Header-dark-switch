@@ -17,3 +17,55 @@ h1 {
     justify-content: center;
 }
 
+h2{
+    font-family: 'сlassica', Arial, sans-serif;
+}
+.parallax-section {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    background-color: #333; /* Цвет фона блока */
+    margin: 60px;
+    border-radius: 60px;
+}
+
+.parallax-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    position: relative;
+    perspective: 1000px;
+}
+
+.text-box,
+.image-box {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+.text-box h2,
+.text-box p {
+}
+
+.image-box img {
+    width: 60%;
+    height: auto;
+    transform: translateZ(-100px) scale(1.5);
+    margin-left: 120px;
+    border-radius: 80px;
+}
+
+/* Медиазапрос для уменьшения размера при достижении ширины 768px */
+@media (max-width: 768px) {
+    .parallax-content {
+        flex-direction: column; /* Изменение направления flex на колонку */
+    }
+
+    .text-box,
+    .image-box {
+        width: 100%; /* Блоки занимают всю ширину экрана при уменьшении размера */
+        margin-bottom: 20px; /* Расстояние между блоками */
+    }
+}
