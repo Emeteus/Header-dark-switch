@@ -3,6 +3,7 @@
     src: url('/assets/font/classica.woff') format('woff2'), 
          url('/assets/font/classica.woff') format('woff');
 }
+@import url('/assets/font/classica.woff');
 
 h1 {
     font-family: 'сlassica', Arial, sans-serif;
