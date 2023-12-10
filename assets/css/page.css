@@ -20,6 +20,7 @@ h1 {
 h2{
     font-family: 'сlassica', Arial, sans-serif;
 }
+
 .parallax-section {
     position: relative;
     height: 400px;
@@ -45,9 +46,7 @@ h2{
     position: relative;
 }
 
-.text-box h2,
-.text-box p {
-}
+
 
 .image-box img {
     width: 60%;
