@@ -3,10 +3,11 @@
     src: url('/assets/font/classica.woff') format('woff2'), 
          url('/assets/font/classica.woff') format('woff');
 }
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
 
 h1 {
-    font-family: 'сlassica', Arial, sans-serif;
-    font-size: 60px;
+    font-family: 'Whisper', cursive, sans-serif;
+    font-size: 80px;
     line-height: 65px;
     text-align: center;
     width: 60%;
