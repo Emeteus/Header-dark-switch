@@ -31,6 +31,14 @@ h2{
     border-radius: 60px;
 }
 
+/* .layer2 {
+    background: rgba(56, 67, 88, 0.7);;
+    border: 4px solid rgb(181,26,43);
+    padding: 30px;
+    margin: 70px;
+    border-radius: 80px;
+} */
+
 .parallax-content {
     display: flex;
     align-items: center;

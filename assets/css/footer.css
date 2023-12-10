@@ -1,12 +1,10 @@
 footer {
     position: absolute;
-    /* bottom: 0; */
-    left: 0;
+    left: auto;
     right: 0;
     background: #111;
     padding-top: 0%; /* Уменьшен верхний отступ */
     color: #fff;
-
 }
 
 .footer-content {
