@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'сlassica';
-    src: url('/assets/font/classica.ttf') format('woff2'), /* Используйте правильный формат и путь к файлу шрифта */
-         url('/assets/font/classica.ttf') format('woff');
+    src: url('/assets/font/classica.woff') format('woff2'), 
+         url('/assets/font/classica.woff') format('woff');
 }
 
 h1 {

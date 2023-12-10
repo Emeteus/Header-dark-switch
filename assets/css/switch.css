@@ -1,5 +1,6 @@
 body {
     background-image: url('theme/bg_white.png');
+    overflow-x:hidden;
 }
 
 .dark {
